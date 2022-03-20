@@ -1,0 +1,21 @@
+header {
+  background-color: rgb(71, 148, 172);
+  padding-left: 1em;
+  padding-right: 1em;
+  display: inline-flex;
+}
+
+header h1 {
+  font-style: oblique;
+}
+
+header h4 {
+    
+    text-decoration: underline;
+    border: 5px;
+}
+
+section div {
+    display: flex;
+    justify-content: space-between;
+}
