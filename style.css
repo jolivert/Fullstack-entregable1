@@ -1,21 +1,67 @@
+body {
+  background-color: rgb(71, 148, 172);
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
 header {
   background-color: rgb(71, 148, 172);
   padding-left: 1em;
   padding-right: 1em;
-  display: inline-flex;
+  display: flex;
+  justify-content: space-between;
 }
 
 header h1 {
   font-style: oblique;
+  color: navy;
+  font-size: 3em;
 }
 
 header h4 {
-    
-    text-decoration: underline;
-    border: 5px;
+  text-decoration: underline;
+  border: 5px;
 }
 
-section div {
-    display: flex;
-    justify-content: space-between;
+h2 {
+  color: navy;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: rgb(71, 148, 172);
+}
+
+#fija {
+  background-color: rgb(127, 225, 255);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: larger;
+  width: 20em;
+  height: 20em;
+}
+
+#movil {
+  background-color: rgb(127, 193, 255);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: larger;
+  width: 20em;
+  height: 20em;
+}
+
+#instal {
+  background-color: rgb(127, 146, 255);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: larger;
+  width: 20em;
+  height: 20em;
+}
+p.special {
+  color: navy;
+}
+
+p.clickable {
+    color: rgb(95, 25, 25);
+    border-color: black;
 }
