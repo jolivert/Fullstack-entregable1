@@ -61,7 +61,57 @@ p.special {
   color: navy;
 }
 
-p.clickable {
-    color: rgb(95, 25, 25);
-    border-color: black;
+button.clickable {
+  color: rgb(95, 25, 25);
+  border-color: black;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[name="texto"] {
+  width: 30em;
+  height: 20em;
+}
+
+input[name="mail"] {
+  width: 20em;
+  height: 1em;
+}
+
+#ai {
+  position: absolute;
+}
+img {
+  position: relative;
+  margin-top: 5em;
+  margin-left: 0;
+  width: 15em;
+  height: 20em;
+}
+
+#imagenai {
+    background-color: grey;
+    text-align: left;
+    position: absolute;
+    margin-top: 27em;
+    width: 30em;
+    
+   
+}
+
+button.menu {
+
+    width: 10em;
+    height: 5em;
+    background-color: lightslategray;
+    border-radius: 1em;
+}
+
+footer {
+    position: absolute;
+    margin-top: 10em;
+    text-align: center;
+
 }
